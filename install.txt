@@ -1,0 +1,59 @@
+killall -9 bluetoothd
+apt-get install bluez
+apt-get update
+apt-get install bluez
+apt-get install bluez-utils bluez-hcidump libbluetooth-dev
+apt-get install  libbluetooth-dev
+apt-get install  bluez-hcidump 
+apt-get install bluez-utils 
+git clone https://github.com/asterisk/asterisk.git
+cd asterisk/
+./configure && make menuselect
+make
+apt-cache search libjanson
+apt-get install libjansson-dev
+apt-get install libxml2
+apt-get install libxml2-dev
+./configure
+make menuselect
+make
+make install
+hcitool scan
+/etc/init.d/dbus start
+bluez (/usr/libexec/bluetooth/bluetoothd --debug &)
+/usr/libexec/bluetooth/bluetoothd --debug &
+hcitool scan
+RUN apt-get install -y bluez bluetooth
+apt-get install -y bluez bluetooth
+hcitool scan
+/usr/libexec/bluetooth/bluetoothd --debug &
+rfcomm connect hci0 6C:00:6B:E2:3B:18
+rfcomm connect hci0 6C:00:6B:E2:3B:18
+hcitool con
+vim addons/chan_mobile.c 
+rasterisk 
+make install
+make samples
+make basic-pbx
+rasterisk 
+asterisk 
+rasterisk 
+vim vi /etc/asterisk/chan_mobile.conf
+vim /etc/asterisk/chan_mobile.conf
+rasterisk 
+vim /etc/asterisk/chan_mobile.conf
+hcitool dev
+vim /etc/asterisk/chan_mobile.conf
+vim /etc/asterisk/extensions.conf
+rasterisk 
+hcitool dev
+rfcomm connect hci0 6C:00:6B:E2:3B:18
+rasterisk 
+hcitool con
+rasterisk 
+vim /etc/asterisk/chan_mobile.conf
+bluetooth-agent 7472
+rasterisk 
+hcitool  scan
+rfcomm connect hci0 6C:00:6B:E2:3B:18
+
